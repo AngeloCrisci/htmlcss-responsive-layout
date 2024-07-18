@@ -3,4 +3,24 @@
     header {
         justify-content: flex-start;
     }
+
+    main {
+        padding: 0 40px
+    }
+
+    .hidden {
+        display: inline-block;
+    }
+
+    h3 {
+        font-size: 35px;
+    }
+}
+
+
+
+@media screen and (min-width: 992px){
+    h3 {
+        font-size: 45px;
+    }
 }

@@ -32,7 +32,7 @@ h1 {
 
 main {
     font-family: 'Helvetica Neue', sans-serif;
-    padding: 0 10px;
+    padding: 0 20px;
 }
 
 h4 {
@@ -41,11 +41,63 @@ h4 {
     font-size: 25px;
 }
 
+h3 {
+    font-size: 30px;
+    color: #4E3969;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
 /* Utils */
 
 .container {
-    max-width: 200%;
+    max-width: 1080px;
     margin: 0 auto;
+}
+
+#recipe {
+    background-color: white;
+}
+
+.fa-star {
+    color: #FF9614;
+}
+
+.border {
+    border: 2px solid black;
+}
+
+.rating {
+    font-size: 25px;
+}
+
+.rating span {
+    border: 0.5px #FF9614 solid;
+    background-color: #FF9614;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Layout */
+
+.row {
+    display: flex;
+}
+
+.col-70 {
+    flex-basis: 70%;
+}
+
+.col-30 {
+    flex-basis: 30%;
 }
 
 .m-btm {
