@@ -15,6 +15,18 @@
     h3 {
         font-size: 35px;
     }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    li {
+        flex-basis: calc(100% / 3 - 6rem / 3);
+        padding: 0;
+    }
 }
 
 
@@ -22,5 +34,16 @@
 @media screen and (min-width: 992px){
     h3 {
         font-size: 45px;
+    }
+
+    .d-row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .col-d {
+        flex-basis: 50%;
+        padding: 10px;
+        margin: 0;
     }
 }
